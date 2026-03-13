@@ -41,6 +41,7 @@ export default defineConfig({
   resolve: {
     preserveSymlinks: true, // workaround to link s-forms locally in npm
     alias: {
+      "@kbss-cvut/s-forms": "@ulcheyev/s-forms",
       querystring: "querystring-es3", // workaround for parse-link-header library that replaces nodejs builtin module with the module adapted for browser
       url: "url-parse", // workaround for parse-link-header library that replaces nodejs builtin module with the module adapted for browser
     },
